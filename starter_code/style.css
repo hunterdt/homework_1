@@ -29,10 +29,11 @@ ul {
 
 img {
     border: solid;
-    border-color: crimson;
+    border-color: black;
     border-width: 5px;
     max-width: 300px;
     height: auto;
+    border-radius: 15px;
 }
 
 body {
