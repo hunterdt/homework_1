@@ -1,0 +1,70 @@
+/*code along version*/
+
+h1,
+h2,
+h3,
+h4,
+ul {
+    font-family: sans-serif;
+}
+
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+body {
+    width: 800px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+section {
+    overflow: auto;
+}
+
+section img {
+    width: 200px;
+    float: right;
+    border: 2px solid gray;
+    padding: 4px;
+}
+
+div {
+    width: 66%;
+    float: left;
+}
+
+nav ul,
+footer ul {
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li,
+footer li {
+    display: inline;
+}
+
+nav li + li,
+footer li + li {
+    border-left: 2px solid black;
+    padding-left: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+
+/*rules for portfolio*/
+
+li img {}
