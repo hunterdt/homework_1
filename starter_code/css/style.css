@@ -8,13 +8,20 @@ ul {
     font-family: sans-serif;
 }
 
-h3,
+h1,
+h2,
 h4 {
     text-transform: uppercase;
 }
 
+h1 {
+    text-align: center;
+}
+
 body {
-    width: 800px;
+    background-color: ghostwhite;
+    /*can uncomment line below if I want a fixed-width page, but I think it works pretty well without fixed width*/
+    /*    width: 610px;*/
     padding-left: 25px;
     padding-right: 25px;
     border-top: 5px solid black;
@@ -26,7 +33,7 @@ section {
 }
 
 section img {
-    width: 200px;
+    width: 180px;
     float: right;
     border: 2px solid gray;
     padding: 4px;
@@ -37,34 +44,54 @@ div {
     float: left;
 }
 
+footer {
+    padding-top: 5px;
+}
+
 nav ul,
 footer ul {
     padding: 0px;
     list-style: none;
     text-align: center;
+    /*    line below helps bring back to center after indenting ul -40px*/
+    margin-left: 40px;
 }
 
 nav li,
 footer li {
     display: inline;
+    font-weight: bold;
+    margin-left: 0px;
 }
 
 nav li + li,
 footer li + li {
     border-left: 2px solid black;
     padding-left: 5px;
-}
-
-h1 {
-    text-align: center;
-}
-
-h1,
-h2 {
-    text-transform: uppercase;
+    margin-left: 0px;
 }
 
 
 /*rules for portfolio*/
 
-li img {}
+li img {
+    border: 2px solid gray;
+    width: 450px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+li p {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+li {
+    list-style: square;
+    margin-left: 15px;
+}
