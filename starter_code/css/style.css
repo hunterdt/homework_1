@@ -87,11 +87,5 @@ li p {
 }
 
 ul li {
-    list-style: none;
-    margin-left: -40px;
-}
-
-li {
     list-style: square;
-    margin-left: 15px;
 }
